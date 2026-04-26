@@ -1,0 +1,14 @@
+
+{
+    "name": "spekify-server",
+    "version": "1.0.0",
+    "description": "WebSocket sigaling server for Spekify Music Together",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "ws": "^8.20.0"
+    }
+
+}
