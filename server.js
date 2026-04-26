@@ -168,6 +168,6 @@ wss.on('connection', function connection(ws, req) {
 
 const port = process.env.PORT || 8080;
 server.listen(port, "0.0.0.0", () => {
-  console.log(`Velune Backend listening on port ${port}`);
+  console.log(`Spekify Backend listening on port ${port}`);
 });
 
